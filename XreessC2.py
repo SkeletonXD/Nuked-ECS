@@ -28,6 +28,7 @@ banner =  """
 - bfbypass
 - dns
 - tcp
+- telnet
 - bfdrop
 """
 
@@ -117,7 +118,6 @@ def main():
 		if sinput == "clear":
 			os.system ("clear")
 			print (banner)
-			print (pen)
 			main()
 		elif sinput == "":
 			main()
